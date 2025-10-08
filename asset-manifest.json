@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.2e50aa15.css",
+    "main.js": "/react-portfolio/static/js/main.8ed7e912.js",
+    "static/media/html-css-collage-concept-with-person.jpg": "/react-portfolio/static/media/html-css-collage-concept-with-person.01e81d24e76c6073f62a.jpg",
+    "static/media/pexels-mikhail-nilov-6894207.jpg": "/react-portfolio/static/media/pexels-mikhail-nilov-6894207.bcfe4fe87a72af4d56d8.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.2e50aa15.css.map": "/react-portfolio/static/css/main.2e50aa15.css.map",
+    "main.8ed7e912.js.map": "/react-portfolio/static/js/main.8ed7e912.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e50aa15.css",
+    "static/js/main.8ed7e912.js"
+  ]
+}
