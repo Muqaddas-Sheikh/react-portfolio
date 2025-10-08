@@ -1,0 +1,31 @@
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 25px 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer a {
+  color: #b0b77e; /* accent color */
+  margin: 0 10px;
+  font-size: 1.5em;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.footer-icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+@media (max-width: 768px) {
+  .footer a {
+    font-size: 1.2em;
+  }
+}

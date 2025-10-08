@@ -1,0 +1,119 @@
+.about-full {
+  width: 100%;
+  /* ❌ min-height: 100vh; hata do */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  color: rgb(153,153,153);
+  padding: 4rem 2rem;   /* thoda upar niche spacing ke liye */
+  box-sizing: border-box;
+}
+
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Left Image */
+.about-left {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+.profile-img {
+  width: 350px;
+  max-width: 100%;
+  border-radius: 12px;
+  border: 3px solid #b0b77e;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.profile-img:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 15px 30px rgba(153,153,153,0.3);
+}
+
+/* Right Content */
+.about-right {
+  flex: 1;
+  min-width: 300px;
+}
+.intro {
+  color: #b0b77e;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-family: 'Arimo', sans-serif;
+}
+.about-heading {
+  color: #000;
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  font-family: 'Arimo', sans-serif;
+}
+.about-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+.about-description strong {
+  color: #b0b77e; /* Tumhara desired color */
+}
+
+
+/* Personal Info */
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+.personal-info span {
+  font-weight: bold;
+  color: #000;
+  width: 130px;
+  display: inline-block;
+}
+
+/* Social Icons */
+.about-social a {
+  color: #b0b77e;
+  font-size: 1.8rem;
+  margin-right: 1rem;
+  transition: transform 0.3s, color 0.3s;
+}
+.about-social a:hover {
+  transform: translateY(-5px);
+  color: #000;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-right {
+    text-align: center;
+  }
+
+  .personal-info span {
+    width: auto;
+    display: inline;
+  }
+
+  .profile-img {
+    width: 250px;
+    margin-bottom: 2rem;
+  }
+}
